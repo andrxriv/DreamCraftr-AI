@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Transformations = () => {
+const TransformationsPage = () => {
     return (
         <div>
             <h1>Transformations Page</h1>
@@ -8,7 +8,7 @@ const Transformations = () => {
     )
 }
 
-export default Transformations;
+export default TransformationsPage;
 
 // localhost:3000/transformations
 // localhost:3000/transformations/[id]

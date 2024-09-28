@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AddTransformationType = () => {
+const AddTransformationTypePage = () => {
     return (
         <div>
             <h1>Add Transformations Type Page</h1>
@@ -8,4 +8,4 @@ const AddTransformationType = () => {
     )
 }
 
-export default AddTransformationType;
+export default AddTransformationTypePage;
