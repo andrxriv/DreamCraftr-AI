@@ -8,7 +8,14 @@ import { handleError } from "../utils";
 
 // CRUD Functions
 // CREATE
-export async function createUser(user: CreateUserParams) {
+export async function createUser(user: {
+    firstName: any;
+    lastName: any;
+    clerkId: string | undefined;
+    photo: any;
+    email: any;
+    username: any
+}) {
     try {
         await connectToDatabase();
 
